@@ -1,0 +1,43 @@
+#header {
+  background-color: #f3176b;
+}
+body {
+  margin: 0;
+}
+.nav {
+  display: inline-block;
+  width: calc(100% - 150px);
+  text-align: right;
+}
+.ul {
+  list-style-type: none;
+  margin: 0 20;
+  padding: 0;
+}
+
+.li {
+  display: inline-block;
+  margin: 0 20;
+  margin-right: 20px;
+}
+
+.li a {
+  text-decoration: none;
+  color: rgb(190, 0, 0);
+  font-size: 20px;
+}
+.logo {
+  color: rgb(255, 253, 253);
+  font-size: 30px;
+  display: inline-block;
+  margin: 0 25px;
+
+}
+.li a:hover {
+  color: rgba(255, 255, 255, 0.86);
+  transition: 0.5s;
+}
+.logo:hover {
+  color: rgb(143, 80, 85);
+  transition: 0.5s;
+}
